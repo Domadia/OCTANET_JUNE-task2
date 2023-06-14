@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To Do List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>To Do List</h1>
+  
+  <div class="task-list">
+    <div class="task">
+      <h2>Task 1</h2>
+      <p><strong>Deadline:</strong> June 20, 2023</p>
+      <p><strong>Priority:</strong> High</p>
+      <p><strong>Label:</strong> Website Redesign</p>
+      <button class="delete-btn">Delete</button>
+      <button class="complete-btn">Mark as Completed</button>
+    </div>
+    
+    <div class="task">
+      <h2>Task 2</h2>
+      <p><strong>Deadline:</strong> June 25, 2023</p>
+      <p><strong>Priority:</strong> Medium</p>
+      <p><strong>Label:</strong> SEO Optimization</p>
+      <button class="delete-btn">Delete</button>
+      <button class="complete-btn">Mark as Completed</button>
+    </div>
+    
+    <div class="task">
+      <h2>Task 3</h2>
+      <p><strong>Deadline:</strong> June 30, 2023</p>
+      <p><strong>Priority:</strong> Low</p>
+      <p><strong>Label:</strong> Content Creation</p>
+      <button class="delete-btn">Delete</button>
+      <button class="complete-btn">Mark as Completed</button>
+    </div>
+  </div>
+
+  <div class="add-task-form">
+    <h2>Create a New Task</h2>
+    <input type="text" id="task-name" placeholder="Task Name">
+    <input type="text" id="deadline" placeholder="Deadline">
+    <input type="text" id="priority" placeholder="Priority">
+    <input type="text" id="label" placeholder="Label">
+    <button id="add-task-btn">Add Task</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
